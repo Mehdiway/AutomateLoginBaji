@@ -1,0 +1,21 @@
+[2021-10-14T20:29:50.100] [DEBUG] LOG - Current URL : http://www.albaji-academy.com/Login/
+[2021-10-14T20:29:50.174] [DEBUG] LOG - Filling login form...
+[2021-10-14T20:29:50.382] [DEBUG] LOG - Click submit button...
+[2021-10-14T20:29:50.820] [DEBUG] LOG - Current URL : http://www.albaji-academy.com/Espace-Etudiant/
+[2021-10-14T20:29:51.220] [DEBUG] LOG - Go to : http://www.albaji-academy.com/Espace-Etudiant/Presence/
+[2021-10-14T20:29:52.105] [DEBUG] LOG - Current URL : http://www.albaji-academy.com/Espace-Etudiant/Presence/
+[2021-10-14T20:29:52.297] [DEBUG] LOG - Number of options : 2
+[2021-10-14T20:29:52.300] [DEBUG] LOG - Module to select : حصة_النحو_لتاريخ_2021_10_14
+[2021-10-14T20:29:52.763] [DEBUG] LOG - Dialog popup :  المهدي أرماشي، تم تأكيد حضورك في حصة  حصة_النحو_لتاريخ_2021_10_14  شكرا    
+[2021-10-14T20:29:52.763] [DEBUG] LOG - URL : http://www.albaji-academy.com/Espace-Etudiant/Presence/Presence.php
+[2021-10-14T20:30:45.118] [DEBUG] LOG - Current URL : http://www.albaji-academy.com/Login/
+[2021-10-14T20:30:45.186] [DEBUG] LOG - Filling login form...
+[2021-10-14T20:30:45.397] [DEBUG] LOG - Click submit button...
+[2021-10-14T20:30:45.790] [DEBUG] LOG - Current URL : http://www.albaji-academy.com/Espace-Etudiant/
+[2021-10-14T20:30:46.098] [DEBUG] LOG - Go to : http://www.albaji-academy.com/Espace-Etudiant/Presence/
+[2021-10-14T20:30:46.946] [DEBUG] LOG - Current URL : http://www.albaji-academy.com/Espace-Etudiant/Presence/
+[2021-10-14T20:30:47.148] [DEBUG] LOG - Number of options : 2
+[2021-10-14T20:30:47.150] [DEBUG] LOG - Module to select : حصة_النحو_لتاريخ_2021_10_14
+[2021-10-14T20:30:47.633] [DEBUG] LOG - Dialog popup :  المهدي أرماشي، تم تأكيد حضورك في حصة  حصة_النحو_لتاريخ_2021_10_14  شكرا    
+[2021-10-14T20:30:47.633] [DEBUG] LOG - URL : http://www.albaji-academy.com/Espace-Etudiant/Presence/Presence.php
+[2021-10-14T20:30:47.759] [DEBUG] LOG - Current URL : http://www.albaji-academy.com/Espace-Etudiant/

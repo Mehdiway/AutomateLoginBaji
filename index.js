@@ -1,5 +1,7 @@
 const puppeteer = require("puppeteer");
 var log4js = require("log4js");
+require("dotenv").config();
+
 log4js.configure({
   appenders: { LOG: { type: "file", filename: "log/debug.log" } },
   categories: { default: { appenders: ["LOG"], level: "debug" } },
@@ -22,9 +24,13 @@ const delay = (ms) => new Promise((resolve) => setTimeout(resolve, ms));
     await page.screenshot({ path: "./screenshot1.png", fullPage: true });
 
     logger.debug("Filling login form...");
-    console.log("Filling login form...");
-    await page.type("#login-form-username", "armachi.mehdi@gmail.com");
-    await page.type("#login-form-password", "16199.Mehdiway");
+    console.log(
+      "Filling login form...",
+      process.env.ALBAJI_USERNAME,
+      process.env.ALBAJI_PASSWORD
+    );
+    await page.type("#login-form-username", process.env.ALBAJI_USERNAME);
+    await page.type("#login-form-password", process.env.ALBAJI_PASSWORD);
     await page.screenshot({ path: "./screenshot2.png", fullPage: true });
 
     logger.debug("Click submit button...");

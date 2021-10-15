@@ -19,3 +19,46 @@
 [2021-10-14T20:30:47.633] [DEBUG] LOG - Dialog popup :  المهدي أرماشي، تم تأكيد حضورك في حصة  حصة_النحو_لتاريخ_2021_10_14  شكرا    
 [2021-10-14T20:30:47.633] [DEBUG] LOG - URL : http://www.albaji-academy.com/Espace-Etudiant/Presence/Presence.php
 [2021-10-14T20:30:47.759] [DEBUG] LOG - Current URL : http://www.albaji-academy.com/Espace-Etudiant/
+[2021-10-15T19:41:51.944] [DEBUG] LOG - Current URL : http://www.albaji-academy.com/Login/
+[2021-10-15T19:41:52.157] [DEBUG] LOG - Filling login form...
+[2021-10-15T19:41:52.690] [DEBUG] LOG - Click submit button...
+[2021-10-15T19:42:22.927] [FATAL] LOG - APP CRASH
+[2021-10-15T19:42:22.928] [FATAL] LOG - TimeoutError: waiting for selector `a.si-facebook` failed: timeout 30000ms exceeded
+    at new WaitTask (C:\Work\Sandbox\AlbajiAutomate\node_modules\puppeteer\lib\cjs\puppeteer\common\DOMWorld.js:513:34)
+    at DOMWorld.waitForSelectorInPage (C:\Work\Sandbox\AlbajiAutomate\node_modules\puppeteer\lib\cjs\puppeteer\common\DOMWorld.js:424:26)
+    at Object.internalHandler.waitFor (C:\Work\Sandbox\AlbajiAutomate\node_modules\puppeteer\lib\cjs\puppeteer\common\QueryHandler.js:31:77)
+    at DOMWorld.waitForSelector (C:\Work\Sandbox\AlbajiAutomate\node_modules\puppeteer\lib\cjs\puppeteer\common\DOMWorld.js:317:29)
+    at Frame.waitForSelector (C:\Work\Sandbox\AlbajiAutomate\node_modules\puppeteer\lib\cjs\puppeteer\common\FrameManager.js:841:51)
+    at Page.waitForSelector (C:\Work\Sandbox\AlbajiAutomate\node_modules\puppeteer\lib\cjs\puppeteer\common\Page.js:2313:33)
+    at C:\Work\Sandbox\AlbajiAutomate\index.js:36:16
+    at processTicksAndRejections (internal/process/task_queues.js:95:5)
+[2021-10-15T19:43:22.266] [DEBUG] LOG - Current URL : http://www.albaji-academy.com/Login/
+[2021-10-15T19:43:22.549] [DEBUG] LOG - Filling login form...
+[2021-10-15T19:43:23.157] [DEBUG] LOG - Click submit button...
+[2021-10-15T19:43:53.455] [FATAL] LOG - APP CRASH
+[2021-10-15T19:43:53.456] [FATAL] LOG - TimeoutError: waiting for selector `a.si-facebook` failed: timeout 30000ms exceeded
+    at new WaitTask (C:\Work\Sandbox\AlbajiAutomate\node_modules\puppeteer\lib\cjs\puppeteer\common\DOMWorld.js:513:34)
+    at DOMWorld.waitForSelectorInPage (C:\Work\Sandbox\AlbajiAutomate\node_modules\puppeteer\lib\cjs\puppeteer\common\DOMWorld.js:424:26)
+    at Object.internalHandler.waitFor (C:\Work\Sandbox\AlbajiAutomate\node_modules\puppeteer\lib\cjs\puppeteer\common\QueryHandler.js:31:77)
+    at DOMWorld.waitForSelector (C:\Work\Sandbox\AlbajiAutomate\node_modules\puppeteer\lib\cjs\puppeteer\common\DOMWorld.js:317:29)
+    at Frame.waitForSelector (C:\Work\Sandbox\AlbajiAutomate\node_modules\puppeteer\lib\cjs\puppeteer\common\FrameManager.js:841:51)
+    at Page.waitForSelector (C:\Work\Sandbox\AlbajiAutomate\node_modules\puppeteer\lib\cjs\puppeteer\common\Page.js:2313:33)
+    at C:\Work\Sandbox\AlbajiAutomate\index.js:40:16
+    at processTicksAndRejections (internal/process/task_queues.js:95:5)
+[2021-10-15T19:44:23.111] [DEBUG] LOG - Current URL : http://www.albaji-academy.com/Login/
+[2021-10-15T19:44:23.327] [DEBUG] LOG - Filling login form...
+[2021-10-15T19:44:23.925] [DEBUG] LOG - Click submit button...
+[2021-10-15T19:44:24.509] [DEBUG] LOG - Current URL : http://www.albaji-academy.com/Espace-Etudiant/
+[2021-10-15T19:44:26.809] [DEBUG] LOG - Go to : http://www.albaji-academy.com/Espace-Etudiant/Presence/
+[2021-10-15T19:44:28.098] [DEBUG] LOG - Current URL : http://www.albaji-academy.com/Espace-Etudiant/Presence/
+[2021-10-15T19:44:28.463] [DEBUG] LOG - Number of options : 2
+[2021-10-15T19:44:28.466] [DEBUG] LOG - Module to select : حصة_الفقه_لتاريخ_2021_10_15
+[2021-10-15T19:44:29.189] [DEBUG] LOG - Dialog popup :  المهدي أرماشي، تم تأكيد حضورك في حصة  حصة_الفقه_لتاريخ_2021_10_15  شكرا    
+[2021-10-15T19:44:29.190] [DEBUG] LOG - URL : http://www.albaji-academy.com/Espace-Etudiant/Presence/Presence.php
+[2021-10-15T19:44:29.318] [FATAL] LOG - APP CRASH
+[2021-10-15T19:44:29.318] [FATAL] LOG - Error: Protocol error (Page.captureScreenshot): Cannot take screenshot with 0 width.
+    at C:\Work\Sandbox\AlbajiAutomate\node_modules\puppeteer\lib\cjs\puppeteer\common\Connection.js:217:63
+    at new Promise (<anonymous>)
+    at CDPSession.send (C:\Work\Sandbox\AlbajiAutomate\node_modules\puppeteer\lib\cjs\puppeteer\common\Connection.js:216:16)
+    at Page._screenshotTask (C:\Work\Sandbox\AlbajiAutomate\node_modules\puppeteer\lib\cjs\puppeteer\common\Page.js:1958:43)
+    at processTicksAndRejections (internal/process/task_queues.js:95:5)
